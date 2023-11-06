@@ -1,3 +1,17 @@
+# LEVMAR
+
+Fork from the original [LevMar](https://users.ics.forth.gr/~lourakis/levmar/) project, adapted to be compiled on Apple arm64 (used in MeshLab).
+
+# Diff from version 2.6 (from https://users.ics.forth.gr/~lourakis/levmar/)
+
+Changelog:
+
+- replace `finite` to `isfinite` on `compiler.h` - `finite` was deprecated and was removed on arm64.
+
+Full changelog can be found in the git history of the repository.
+
+# Original README
+    
     **************************************************************
                                 LEVMAR
                               version 2.6
